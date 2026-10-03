@@ -1,0 +1,14 @@
+{
+  "name": "launch-asset-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "新品发布素材控制台：时间线编辑 + 三维预览 + 服务端渲染 + 发布门禁",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node tests/acceptance.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}
